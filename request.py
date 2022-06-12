@@ -6,7 +6,6 @@ socket = context.socket(zmq.REQ)
 socket.connect("ipc://temp")
 
 while True:
-
   request = "REQUEST"
   socket.send(request.encode())
   print("Sent:", request)
