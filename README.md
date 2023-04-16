@@ -1,2 +1,1 @@
-# ZeroMQ
-Request/Response in PyZMQ using IPC
+Testing ZeroMQ Request/Response using IPC
